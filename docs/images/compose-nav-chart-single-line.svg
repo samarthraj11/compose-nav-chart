@@ -1,0 +1,25 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#FFF7ED"/>
+  <rect x="96" y="72" width="1008" height="576" rx="28" fill="#FFFFFF" stroke="#FED7AA" stroke-width="2"/>
+  <text x="144" y="134" fill="#7C2D12" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Single NAV line</text>
+  <text x="144" y="170" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="18">Use one series for simple fund NAV history</text>
+  <rect x="144" y="210" width="912" height="116" rx="18" fill="#FFFBEB" stroke="#FED7AA"/>
+  <rect x="176" y="244" width="5" height="52" rx="2.5" fill="#EA580C"/>
+  <text x="197" y="262" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="15">NAV</text>
+  <text x="197" y="294" fill="#7C2D12" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">83.42</text>
+  <text x="301" y="294" fill="#EA580C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">+7.8%</text>
+  <line x1="144" y1="389" x2="1056" y2="389" stroke="#FED7AA" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="456" x2="1056" y2="456" stroke="#FED7AA" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="523" x2="1056" y2="523" stroke="#FED7AA" stroke-width="2" stroke-dasharray="8 12"/>
+  <path d="M144 526 C 200 498, 246 541, 313 518 C 385 493, 432 451, 503 465 C 568 478, 613 432, 680 421 C 748 409, 802 355, 869 370 C 940 385, 995 315, 1056 298" stroke="#EA580C" stroke-width="8" stroke-linecap="round"/>
+  <line x1="680" y1="236" x2="680" y2="560" stroke="#7C2D12" stroke-width="2" opacity="0.16"/>
+  <circle cx="680" cy="421" r="13" fill="#FFFFFF"/>
+  <circle cx="680" cy="421" r="8" fill="#EA580C"/>
+  <rect x="621" y="236" width="118" height="58" rx="14" fill="#7C2D12"/>
+  <text x="649" y="272" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Week 8</text>
+  <text x="144" y="596" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="16">W1</text>
+  <text x="360" y="596" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="16">W4</text>
+  <text x="578" y="596" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="16">W8</text>
+  <text x="792" y="596" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="16">W12</text>
+  <text x="1010" y="596" fill="#9A3412" font-family="Inter, Arial, sans-serif" font-size="16">W16</text>
+</svg>

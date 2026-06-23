@@ -1,0 +1,27 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#F8FAFC"/>
+  <rect x="96" y="72" width="1008" height="576" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="144" y="134" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Multi-series comparison</text>
+  <text x="144" y="170" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">Render multiple funds or indexes with independent line styles</text>
+  <rect x="144" y="210" width="912" height="116" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <circle cx="178" cy="258" r="7" fill="#2563EB"/><text x="197" y="264" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Large Cap</text>
+  <circle cx="352" cy="258" r="7" fill="#DC2626"/><text x="371" y="264" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Mid Cap</text>
+  <circle cx="512" cy="258" r="7" fill="#7C3AED"/><text x="531" y="264" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Index</text>
+  <text x="176" y="300" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">3 lines</text>
+  <text x="280" y="300" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">smooth, straight, or dashed</text>
+  <line x1="144" y1="389" x2="1056" y2="389" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="456" x2="1056" y2="456" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="523" x2="1056" y2="523" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+  <path d="M144 525 C 224 498, 286 501, 357 461 C 438 416, 493 430, 560 390 C 636 344, 702 358, 775 324 C 862 283, 949 301, 1056 250" stroke="#2563EB" stroke-width="7" stroke-linecap="round"/>
+  <path d="M144 543 L250 514 L356 520 L462 468 L568 482 L674 412 L780 438 L886 365 L992 382 L1056 336" stroke="#DC2626" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 536 C 228 526, 292 494, 365 506 C 443 520, 502 458, 572 468 C 652 479, 710 421, 786 430 C 870 441, 955 397, 1056 372" stroke="#7C3AED" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14"/>
+  <line x1="780" y1="236" x2="780" y2="560" stroke="#0F172A" stroke-width="2" opacity="0.16"/>
+  <circle cx="780" cy="324" r="12" fill="#FFFFFF"/><circle cx="780" cy="324" r="7" fill="#2563EB"/>
+  <circle cx="780" cy="438" r="12" fill="#FFFFFF"/><circle cx="780" cy="438" r="7" fill="#DC2626"/>
+  <circle cx="780" cy="430" r="12" fill="#FFFFFF"/><circle cx="780" cy="430" r="7" fill="#7C3AED"/>
+  <text x="144" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Jan</text>
+  <text x="356" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Feb</text>
+  <text x="574" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Mar</text>
+  <text x="792" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Apr</text>
+  <text x="1000" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">May</text>
+</svg>

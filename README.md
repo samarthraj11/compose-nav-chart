@@ -8,6 +8,20 @@ The chart is extracted from a production portfolio graph and made reusable with 
 
 ![ComposeNavChart preview](docs/images/compose-nav-chart-preview.svg)
 
+## Variations
+
+| Default | Dark |
+| --- | --- |
+| ![Default ComposeNavChart preview](docs/images/compose-nav-chart-preview.svg) | ![Dark ComposeNavChart preview](docs/images/compose-nav-chart-dark.svg) |
+
+| Emerald | Single line |
+| --- | --- |
+| ![Emerald ComposeNavChart preview](docs/images/compose-nav-chart-emerald.svg) | ![Single-line ComposeNavChart preview](docs/images/compose-nav-chart-single-line.svg) |
+
+| Multi-series |
+| --- |
+| ![Multi-series ComposeNavChart preview](docs/images/compose-nav-chart-multi-series.svg) |
+
 ## Install
 
 ### JitPack
