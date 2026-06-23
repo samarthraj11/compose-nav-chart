@@ -1,12 +1,10 @@
 import com.android.build.gradle.LibraryExtension
-import org.gradle.api.publish.maven.MavenPublication
-
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    `maven-publish`
+    alias(libs.plugins.mavenPublish)
 }
 
 group = providers.gradleProperty("GROUP").get()
@@ -41,38 +39,13 @@ extensions.configure<LibraryExtension> {
     }
 }
 
-publishing {
-    publications.withType<MavenPublication>().configureEach {
-        pom {
-            name.set(providers.gradleProperty("POM_NAME"))
-            description.set(providers.gradleProperty("POM_DESCRIPTION"))
-            url.set(providers.gradleProperty("POM_URL"))
-            inceptionYear.set(providers.gradleProperty("POM_INCEPTION_YEAR"))
-            licenses {
-                license {
-                    name.set(providers.gradleProperty("POM_LICENSE_NAME"))
-                    url.set(providers.gradleProperty("POM_LICENSE_URL"))
-                    distribution.set(providers.gradleProperty("POM_LICENSE_DIST"))
-                }
-            }
-            developers {
-                developer {
-                    id.set(providers.gradleProperty("POM_DEVELOPER_ID"))
-                    name.set(providers.gradleProperty("POM_DEVELOPER_NAME"))
-                }
-            }
-            scm {
-                url.set(providers.gradleProperty("POM_SCM_URL"))
-                connection.set(providers.gradleProperty("POM_SCM_CONNECTION"))
-                developerConnection.set(providers.gradleProperty("POM_SCM_DEV_CONNECTION"))
-            }
-        }
-    }
+mavenPublishing {
+    publishToMavenCentral()
 
-    repositories {
-        maven {
-            name = "localBuild"
-            url = uri(layout.buildDirectory.dir("repo"))
-        }
+    if (
+        providers.gradleProperty("signingInMemoryKey").isPresent ||
+        providers.gradleProperty("signing.secretKeyRingFile").isPresent
+    ) {
+        signAllPublications()
     }
 }
