@@ -1,4 +1,4 @@
-rootProject.name = "netassetvalue-graph-project"
+rootProject.name = "compose-nav-chart-project"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -29,5 +29,5 @@ dependencyResolutionManagement {
     }
 }
 
-include(":netassetvalue-graph")
-project(":netassetvalue-graph").projectDir = file("navgraph")
+include(":compose-nav-chart")
+project(":compose-nav-chart").projectDir = file("navgraph")

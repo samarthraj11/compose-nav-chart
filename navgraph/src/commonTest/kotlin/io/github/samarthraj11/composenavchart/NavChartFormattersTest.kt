@@ -1,10 +1,10 @@
-package io.github.netassetvalue.graph
+package io.github.samarthraj11.composenavchart
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-class NavGraphFormattersTest {
+class NavChartFormattersTest {
 
     @Test
     fun axisLabelsAreEvenlySpaced() {

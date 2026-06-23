@@ -1,8 +1,8 @@
-# Net Asset Value Graph
+# ComposeNavChart
 
-A small Compose Multiplatform library for rendering animated Net Asset Value line graphs on Android and iOS.
+A small Compose Multiplatform library for rendering animated NAV charts on Android and iOS.
 
-The graph is extracted from a production portfolio chart and made reusable with neutral data models, configurable line styles, date labels, tooltips, and scrub interaction.
+The chart is extracted from a production portfolio graph and made reusable with neutral data models, configurable line styles, date labels, tooltips, and scrub interaction.
 
 ## Install
 
@@ -22,7 +22,7 @@ Then add the dependency:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("com.github.samarthraj11:netassetvalue-graph:0.1.1")
+    implementation("com.github.samarthraj11:compose-nav-chart:0.2.0")
 }
 ```
 
@@ -31,7 +31,7 @@ commonMain.dependencies {
 For local development:
 
 ```bash
-./gradlew :netassetvalue-graph:publishToMavenLocal
+./gradlew :compose-nav-chart:publishToMavenLocal
 ```
 
 Then consume it from another local project:
@@ -44,7 +44,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("io.github.samarthraj11:netassetvalue-graph:0.1.1")
+    implementation("io.github.samarthraj11:compose-nav-chart:0.2.0")
 }
 ```
 
@@ -55,7 +55,7 @@ The configured Maven group is `io.github.samarthraj11`.
 ```kotlin
 @Composable
 fun PortfolioChart() {
-    NetAssetValueGraph(
+    ComposeNavChart(
         series = listOf(
             NavSeries(
                 name = "Fund",
@@ -88,13 +88,13 @@ This project is configured with Gradle `maven-publish`.
 Local repository:
 
 ```bash
-./gradlew :netassetvalue-graph:publishAllPublicationsToLocalBuildRepository
+./gradlew :compose-nav-chart:publishAllPublicationsToLocalBuildRepository
 ```
 
 Maven local:
 
 ```bash
-./gradlew :netassetvalue-graph:publishToMavenLocal
+./gradlew :compose-nav-chart:publishToMavenLocal
 ```
 
 For Maven Central, use the configured `io.github.samarthraj11` coordinates and add your Central Portal credentials plus signing key through your preferred release pipeline.

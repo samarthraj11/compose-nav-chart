@@ -1,4 +1,4 @@
-package io.github.netassetvalue.graph
+package io.github.samarthraj11.composenavchart
 
 /** Formats a UTC epoch-millis timestamp as `MMM 'YY`, for example `Jan '26`. */
 fun defaultNavAxisLabelFormatter(timestampMillis: Long): String {

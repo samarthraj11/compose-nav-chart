@@ -33,7 +33,7 @@ kotlin {
 }
 
 extensions.configure<LibraryExtension> {
-    namespace = "io.github.netassetvalue.graph"
+    namespace = "io.github.samarthraj11.composenavchart"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {

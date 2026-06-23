@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - ./gradlew :netassetvalue-graph:publishToMavenLocal
+  - ./gradlew :compose-nav-chart:publishToMavenLocal

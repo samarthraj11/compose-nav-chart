@@ -1,4 +1,4 @@
-package io.github.netassetvalue.graph
+package io.github.samarthraj11.composenavchart
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
@@ -9,7 +9,7 @@ data class NavPoint(
     val value: Double,
 )
 
-/** A named NAV line rendered by [NetAssetValueGraph]. */
+/** A named NAV line rendered by [ComposeNavChart]. */
 data class NavSeries(
     val name: String,
     val points: List<NavPoint>,

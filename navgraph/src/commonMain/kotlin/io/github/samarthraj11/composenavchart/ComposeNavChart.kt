@@ -1,4 +1,4 @@
-package io.github.netassetvalue.graph
+package io.github.samarthraj11.composenavchart
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -41,7 +41,7 @@ import kotlin.math.roundToInt
  * All series should generally contain the same number of points ordered by timestamp.
  */
 @Composable
-fun NetAssetValueGraph(
+fun ComposeNavChart(
     series: List<NavSeries>,
     modifier: Modifier = Modifier,
     lineStyles: List<NavLineStyle> = DefaultLineStyles,
