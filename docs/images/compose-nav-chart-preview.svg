@@ -1,0 +1,41 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#F5F7FB"/>
+  <rect x="96" y="72" width="1008" height="576" rx="28" fill="#FFFFFF"/>
+  <rect x="96" y="72" width="1008" height="576" rx="28" stroke="#E2E8F0" stroke-width="2"/>
+
+  <text x="144" y="134" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">ComposeNavChart</text>
+  <text x="144" y="170" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18">Animated NAV chart for Compose Multiplatform</text>
+
+  <rect x="144" y="210" width="912" height="116" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="176" y="244" width="5" height="52" rx="2.5" fill="#3B66EC"/>
+  <text x="197" y="262" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="15">Fund</text>
+  <text x="197" y="294" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">112.1</text>
+  <text x="287" y="294" fill="#16A34A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">+12.1%</text>
+
+  <rect x="542" y="244" width="5" height="52" rx="2.5" fill="#EF9F27"/>
+  <text x="563" y="262" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="15">Benchmark</text>
+  <text x="563" y="294" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">109.7</text>
+  <text x="667" y="294" fill="#16A34A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">+9.7%</text>
+
+  <line x1="144" y1="389" x2="1056" y2="389" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="456" x2="1056" y2="456" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+  <line x1="144" y1="523" x2="1056" y2="523" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8 12"/>
+
+  <path d="M144 533 C 210 509, 250 493, 306 501 C 370 510, 409 447, 472 455 C 542 464, 594 408, 659 416 C 725 424, 768 365, 834 372 C 907 380, 962 330, 1056 344" stroke="#EF9F27" stroke-width="7" stroke-linecap="round"/>
+  <path d="M144 524 C 202 486, 253 491, 309 474 C 379 453, 408 401, 474 413 C 543 425, 592 353, 658 368 C 729 384, 781 316, 842 328 C 917 343, 967 283, 1056 292" stroke="#3B66EC" stroke-width="7" stroke-linecap="round"/>
+
+  <line x1="842" y1="236" x2="842" y2="560" stroke="#0F172A" stroke-width="2" opacity="0.2"/>
+  <circle cx="842" cy="328" r="12" fill="#FFFFFF"/>
+  <circle cx="842" cy="328" r="7" fill="#3B66EC"/>
+  <circle cx="842" cy="372" r="12" fill="#FFFFFF"/>
+  <circle cx="842" cy="372" r="7" fill="#EF9F27"/>
+
+  <path d="M787 236 H897 C907.493 236 916 244.507 916 255 V285 C916 295.493 907.493 304 897 304 H858 L842 320 L826 304 H787 C776.507 304 768 295.493 768 285 V255 C768 244.507 776.507 236 787 236 Z" fill="#0F172A"/>
+  <text x="795" y="276" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Mar 01</text>
+
+  <text x="144" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Jan '26</text>
+  <text x="356" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Feb '26</text>
+  <text x="574" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Mar '26</text>
+  <text x="792" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">Apr '26</text>
+  <text x="1000" y="596" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="16">May '26</text>
+</svg>

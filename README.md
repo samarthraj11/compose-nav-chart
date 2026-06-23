@@ -4,6 +4,10 @@ A small Compose Multiplatform library for rendering animated NAV charts on Andro
 
 The chart is extracted from a production portfolio graph and made reusable with neutral data models, configurable line styles, date labels, tooltips, and scrub interaction.
 
+## Preview
+
+![ComposeNavChart preview](docs/images/compose-nav-chart-preview.svg)
+
 ## Install
 
 ### JitPack
@@ -22,7 +26,7 @@ Then add the dependency:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("com.github.samarthraj11:compose-nav-chart:0.2.1")
+    implementation("com.github.samarthraj11:compose-nav-chart:0.2.2")
 }
 ```
 
@@ -44,7 +48,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("io.github.samarthraj11:compose-nav-chart:0.2.1")
+    implementation("io.github.samarthraj11:compose-nav-chart:0.2.2")
 }
 ```
 
