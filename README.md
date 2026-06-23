@@ -22,7 +22,7 @@ Then add the dependency:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("com.github.samarthraj11:compose-nav-chart:0.2.0")
+    implementation("com.github.samarthraj11:compose-nav-chart:0.2.1")
 }
 ```
 
@@ -44,7 +44,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("io.github.samarthraj11:compose-nav-chart:0.2.0")
+    implementation("io.github.samarthraj11:compose-nav-chart:0.2.1")
 }
 ```
 

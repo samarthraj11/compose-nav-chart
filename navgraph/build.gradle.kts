@@ -41,11 +41,5 @@ extensions.configure<LibraryExtension> {
 
 mavenPublishing {
     publishToMavenCentral()
-
-    if (
-        providers.gradleProperty("signingInMemoryKey").isPresent ||
-        providers.gradleProperty("signing.secretKeyRingFile").isPresent
-    ) {
-        signAllPublications()
-    }
+    signAllPublications()
 }
