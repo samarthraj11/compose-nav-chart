@@ -6,13 +6,35 @@ The graph is extracted from a production portfolio chart and made reusable with 
 
 ## Install
 
-Until the first public release is pushed, publish locally:
+### JitPack
+
+Add JitPack to your repositories:
+
+```kotlin
+repositories {
+    google()
+    mavenCentral()
+    maven("https://jitpack.io")
+}
+```
+
+Then add the dependency:
+
+```kotlin
+commonMain.dependencies {
+    implementation("com.github.samarthraj11:netassetvalue-graph:0.1.0")
+}
+```
+
+### Maven Local
+
+For local development:
 
 ```bash
 ./gradlew :netassetvalue-graph:publishToMavenLocal
 ```
 
-Then consume it from another project:
+Then consume it from another local project:
 
 ```kotlin
 repositories {
@@ -75,7 +97,7 @@ Maven local:
 ./gradlew :netassetvalue-graph:publishToMavenLocal
 ```
 
-For Maven Central, update `gradle.properties` with your real GitHub/Maven coordinates and add a signing + Central Portal publishing plugin or your organization’s preferred release pipeline.
+For Maven Central, use the configured `io.github.samarthraj11` coordinates and add your Central Portal credentials plus signing key through your preferred release pipeline.
 
 ## License
 
