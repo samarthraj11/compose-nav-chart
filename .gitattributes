@@ -1,0 +1,5 @@
+*.bat text eol=crlf
+*.gradle text eol=lf
+*.jar binary
+*.kts text eol=lf
+*.md text eol=lf
