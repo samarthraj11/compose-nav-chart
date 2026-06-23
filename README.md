@@ -22,7 +22,7 @@ Then add the dependency:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("com.github.samarthraj11:netassetvalue-graph:0.1.0")
+    implementation("com.github.samarthraj11:netassetvalue-graph:0.1.1")
 }
 ```
 
@@ -44,7 +44,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("io.github.samarthraj11:netassetvalue-graph:0.1.0")
+    implementation("io.github.samarthraj11:netassetvalue-graph:0.1.1")
 }
 ```
 
